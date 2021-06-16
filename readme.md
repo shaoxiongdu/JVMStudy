@@ -1,5 +1,7 @@
 # JVM自学指南
 
+
+
 ## 一、JVM内存结构
 
 ![Snipaste_2021-06-16_18-33-22](https://gitee.com/ShaoxiongDu/imageBed/raw/master/Snipaste_2021-06-16_18-33-22.png)
@@ -27,4 +29,9 @@
 3. 提交代码
 4. 新建 Pull Request，填写必要信息。
 5. 等待审核即可。通过之后会邮件通知您。
+
+
+## 五、许可证
+
+在 MIT 许可下分发。有关更多信息，请参阅`[LICENSE](./LICENSE)`。
 
