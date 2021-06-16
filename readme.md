@@ -33,5 +33,5 @@
 
 ## 五、许可证
 
-在 MIT 许可下分发。有关更多信息，请参阅`[LICENSE](./LICENSE)`。
+在 MIT 许可下分发。有关更多信息，请参阅[`LICENSE`](./LICENSE)。
 
