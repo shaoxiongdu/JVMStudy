@@ -1,8 +1,6 @@
 # JVM自学指南
 
-
-
-## 一、JVM内存结构
+## 一、JVM架构体系
 
 ![Snipaste_2021-06-16_18-33-22](https://gitee.com/ShaoxiongDu/imageBed/raw/master/Snipaste_2021-06-16_18-33-22.png)
 
