@@ -1,0 +1,96 @@
+Classfile /D:/workspace_idea5/JVMDemo/out/production/chapter09/com/atguigu/java/Order.class
+  Last modified 2020-4-22; size 615 bytes
+  MD5 checksum d4677b869ab4314d40170a167fb6d6f8
+  Compiled from "MethodAreaTest.java"
+class com.atguigu.java.Order
+  minor version: 0
+  major version: 51
+  flags: ACC_SUPER
+Constant pool:
+   #1 = Methodref          #7.#24         // java/lang/Object."<init>":()V
+   #2 = Fieldref           #25.#26        // java/lang/System.out:Ljava/io/PrintStream;
+   #3 = String             #27            // hello!
+   #4 = Methodref          #28.#29        // java/io/PrintStream.println:(Ljava/lang/String;)V
+   #5 = Fieldref           #6.#30         // com/atguigu/java/Order.count:I
+   #6 = Class              #31            // com/atguigu/java/Order
+   #7 = Class              #32            // java/lang/Object
+   #8 = Utf8               count
+   #9 = Utf8               I
+  #10 = Utf8               number
+  #11 = Utf8               ConstantValue
+  #12 = Integer            2
+  #13 = Utf8               <init>
+  #14 = Utf8               ()V
+  #15 = Utf8               Code
+  #16 = Utf8               LineNumberTable
+  #17 = Utf8               LocalVariableTable
+  #18 = Utf8               this
+  #19 = Utf8               Lcom/atguigu/java/Order;
+  #20 = Utf8               hello
+  #21 = Utf8               <clinit>
+  #22 = Utf8               SourceFile
+  #23 = Utf8               MethodAreaTest.java
+  #24 = NameAndType        #13:#14        // "<init>":()V
+  #25 = Class              #33            // java/lang/System
+  #26 = NameAndType        #34:#35        // out:Ljava/io/PrintStream;
+  #27 = Utf8               hello!
+  #28 = Class              #36            // java/io/PrintStream
+  #29 = NameAndType        #37:#38        // println:(Ljava/lang/String;)V
+  #30 = NameAndType        #8:#9          // count:I
+  #31 = Utf8               com/atguigu/java/Order
+  #32 = Utf8               java/lang/Object
+  #33 = Utf8               java/lang/System
+  #34 = Utf8               out
+  #35 = Utf8               Ljava/io/PrintStream;
+  #36 = Utf8               java/io/PrintStream
+  #37 = Utf8               println
+  #38 = Utf8               (Ljava/lang/String;)V
+{
+  public static int count;
+    descriptor: I
+    flags: ACC_PUBLIC, ACC_STATIC
+
+  public static final int number;
+    descriptor: I
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    ConstantValue: int 2
+
+  com.atguigu.java.Order();
+    descriptor: ()V
+    flags:
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 16: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/atguigu/java/Order;
+
+  public static void hello();
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+         3: ldc           #3                  // String hello!
+         5: invokevirtual #4                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+         8: return
+      LineNumberTable:
+        line 22: 0
+        line 23: 8
+
+  static {};
+    descriptor: ()V
+    flags: ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: iconst_1
+         1: putstatic     #5                  // Field count:I
+         4: return
+      LineNumberTable:
+        line 17: 0
+}
+SourceFile: "MethodAreaTest.java"
