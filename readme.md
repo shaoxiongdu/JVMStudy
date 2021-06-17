@@ -42,6 +42,6 @@
 
 ## 六、致谢
 
-> ### 1. 感谢尚硅谷提供的在线视频资料 [在线链接](https://www.bilibili.com/video/BV1PJ411n7xZ)
-> ### 2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
-> ### 3. 感谢Gitee提供的图床平台 [相关地址](https://gitee.com/ShaoxiongDu/imageBed)
+> #### 1. 感谢尚硅谷提供的在线课程视频资料 [在线课程](https://www.bilibili.com/video/BV1PJ411n7xZ)
+> #### 2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
+> #### 3. 感谢Gitee提供的图床平台 [相关地址](https://gitee.com/ShaoxiongDu/imageBed)
