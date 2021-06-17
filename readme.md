@@ -40,3 +40,7 @@
 
 在 MIT 许可下分发。有关更多信息，请参阅[`LICENSE`](./LICENSE)。
 
+## 六、致谢
+
+> ### 1. 感谢尚硅谷提供的在线视频资料 [在线链接](https://www.bilibili.com/video/BV1PJ411n7xZ)
+> ### 2. 感谢JetBrains提供的开源项目许可证 [官方网站](https://www.jetbrains.com/)
