@@ -2,7 +2,7 @@
 
 ## 一、JVM架构体系
 
-![Snipaste_2021-06-16_18-33-22](https://gitee.com/ShaoxiongDu/imageBed/raw/master/Snipaste_2021-06-16_18-33-22.png)
+![JVM架构体系](https://gitee.com/ShaoxiongDu/imageBed/raw/master/%E7%AC%AC02%E7%AB%A0_JVM%E6%9E%B6%E6%9E%84-%E4%B8%AD.jpg)
 
 ## 二、清单
 
