@@ -4,7 +4,7 @@
 
 ![JVM架构体系](https://gitee.com/ShaoxiongDu/imageBed/raw/master/%E7%AC%AC02%E7%AB%A0_JVM%E6%9E%B6%E6%9E%84-%E4%B8%AD.jpg)
 
-## 项目思维导图
+## 二、项目思维导图
 
 ![JVMStudy](./JVMStudy.png)
 
