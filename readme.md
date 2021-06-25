@@ -4,8 +4,6 @@
 
 ![JVM架构体系](https://gitee.com/ShaoxiongDu/imageBed/raw/master/%E7%AC%AC02%E7%AB%A0_JVM%E6%9E%B6%E6%9E%84-%E4%B8%AD.jpg)
 
-> 一个进程对应一个jvm实例，一个运行时数据区，又包含多个线程，这些线程共享了方法区和堆，每个线程包含了程序计数器、本地方法栈和虚拟机栈。
-
 ## 二、项目思维导图
 
 ![JVMStudy](./JVMStudy.png)
