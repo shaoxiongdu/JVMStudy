@@ -2,12 +2,11 @@
 
 ## 一、JVM架构体系
 
-
 ![JVM架构体系](https://gitee.com/ShaoxiongDu/imageBed/raw/master/%E7%AC%AC02%E7%AB%A0_JVM%E6%9E%B6%E6%9E%84-%E4%B8%AD.jpg)
 
 ## 二、项目思维导图
 
-![JVMStudy](./images/JVMStudy.png)
+![JVMStudy](./JVMStudy.png)
 
 ## 三、清单
 
@@ -31,11 +30,9 @@
 -	[7-方法区](02-运行时数据区/07-方法区.md)
 
 ### 3. 执行引擎
-
 > 待补充
 ### 4. 垃圾回收机制
 > 待补充
-
 
 ## 四、参考文献
 
@@ -43,8 +40,9 @@
 >
 > - [JavaSE8的JVM文档](https://docs.oracle.com/javase/specs/jvms/se8/html/)
 > - [JavaSE7的JVM文档](https://docs.oracle.com/javase/specs/jvms/se7/html)
+> - [JavaSE6的JVM文档](https://docs.oracle.com/javase/specs/jvms/se6/html)
 
-## 五、项目反馈及改进
+## 五、反馈及改进
 
 如果您在学习的时候遇到了任何问题，或者清单有任何可以改进的地方，
 
