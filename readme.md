@@ -7,7 +7,7 @@
 
 ## 二、项目思维导图
 
-![JVMStudy](./JVMStudy.png)
+![JVMStudy](./images/JVMStudy.png)
 
 ## 三、清单
 
