@@ -44,9 +44,9 @@
 
 > 1、Oracle官网JVM文档
 >
-> - [JavaSE8的JVM文档](https://docs.oracle.com/javase/specs/jvms/se8/html/)
-> - [JavaSE7的JVM文档](https://docs.oracle.com/javase/specs/jvms/se7/html)
-> - [JavaSE6的JVM文档](https://docs.oracle.com/javase/specs/jvms/se6/html)
+> - [JDK1.8的JVM规范](https://docs.oracle.com/javase/specs/jvms/se8/html/)
+> - [JDK1.7的JVM规范](https://docs.oracle.com/javase/specs/jvms/se7/html)
+> - [JDK1.6的JVM规范](https://docs.oracle.com/javase/specs/jvms/se6/html)
 
 ## 五、反馈及改进
 
