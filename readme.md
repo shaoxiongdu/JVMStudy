@@ -8,7 +8,7 @@
 
 ![JVMStudy](./JVMStudy.png)
 
-## 三、清单
+## 三、目录
 
 ### 1. 类加载子系统
 
@@ -39,34 +39,5 @@
 - [2-垃圾回收相关概念]()
 - [1-垃圾回收器]()
 
-## 四、参考文献
 
-> 1、Oracle官网JVM文档
->
-> - [JavaSE8的JVM文档](https://docs.oracle.com/javase/specs/jvms/se8/html/)
-> - [JavaSE7的JVM文档](https://docs.oracle.com/javase/specs/jvms/se7/html)
-> - [JavaSE6的JVM文档](https://docs.oracle.com/javase/specs/jvms/se6/html)
 
-## 五、反馈及改进
-
-如果您在学习的时候遇到了任何问题，或者清单有任何可以改进的地方，
-
-非常欢迎提出issues,看到就会回馈.并且将您添加到项目贡献者列表中。
-
-## 六、参与贡献
-
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request，填写必要信息。
-5. 等待审核即可。通过之后会邮件通知您。
-
-## 七、许可证
-
-在 MIT 许可下分发。有关更多信息，请参阅[`LICENSE`](./LICENSE)。
-
-## 八、致谢
-
-> #### 1. 感谢尚硅谷提供的在线课程视频资料 [在线课程](https://www.bilibili.com/video/BV1PJ411n7xZ)
-> #### 2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
-> #### 3. 感谢Gitee提供的图床平台 [相关地址](https://gitee.com/ShaoxiongDu/imageBed)
