@@ -1,14 +1,22 @@
-# JVM自学指南
+![info](https://gitee.com/ShaoxiongDu/imageBed/raw/master/info.jpg)
 
-## 一、JVM架构体系
+<p align="center">
+    <img src="https://img.shields.io/badge/JVM-底层原理-blue">
+  <a href="http://www.shaoxiongdu.cn/images/wechat.jpg"><img title="点击扫码" src="https://img.shields.io/badge/公众号-Github推荐-green" ></a>
+  <a href="https://space.bilibili.com/525438321"><img src="https://img.shields.io/badge/持续分享有趣，好玩的开源项目-orange" alt=""></a>
+  <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy" >
+
+</p>
+
+## 一、JVM底层的中文架构
 
 ![JVM架构体系](https://gitee.com/ShaoxiongDu/imageBed/raw/master/%E7%AC%AC02%E7%AB%A0_JVM%E6%9E%B6%E6%9E%84-%E4%B8%AD.jpg)
 
-## 二、项目思维导图 
+## 二、项目结构的思维导图 
 
 ![JVMStudy](./JVMStudy.png)
 
-## 三、目录 
+## 三、清单 
 
 ### 1. 类加载子系统
 
