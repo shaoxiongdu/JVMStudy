@@ -1,11 +1,11 @@
-![info](https://gitee.com/ShaoxiongDu/imageBed/raw/master/info.jpg)
-
+<center>
+<img src="https://gitee.com/ShaoxiongDu/imageBed/raw/master/info.jpg" style="width:700px" >
+</center>
 <p align="center">
     <img src="https://img.shields.io/badge/JVM-底层原理-blue">
-  <a href="http://www.shaoxiongdu.cn/images/wechat.jpg"><img title="点击扫码" src="https://img.shields.io/badge/公众号-Github推荐-green" ></a>
+  <a href="https://gitee.com/ShaoxiongDu/imageBed/raw/master/20210704162839.png"><img title="点击扫码" src="https://img.shields.io/badge/公众号-Github推荐-green" ></a>
   <a href="https://space.bilibili.com/525438321"><img src="https://img.shields.io/badge/持续分享有趣，好玩的开源项目-orange" alt=""></a>
   <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy" >
-
 </p>
 
 ## 一、JVM底层的中文架构
@@ -80,5 +80,17 @@
 > #### 2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
 > #### 3. 感谢Gitee提供的图床平台 [相关地址](https://gitee.com/ShaoxiongDu/imageBed)
 
+## 九、关于作者
 
+大家好，我是程序员杜少雄，一个即将秃顶的大三计科狗，利用工作之余重新刷leetcode。
+
+也欢迎与我交流，备注：「个人简单介绍」 + 交流，围观朋友圈，做点赞之交（备注没有自我介绍不通过哦）
+
+<img src="http://www.shaoxiongdu.cn/images/wechat.jpg" style="width:220px">
+
+## 十、公众号
+
+【Github推荐】： 持续分享好玩，有趣，又沙雕的开源项目！ 欢迎关注
+
+<img src="https://gitee.com/ShaoxiongDu/imageBed/raw/master/20210704162839.png" style="width:220px">
 
