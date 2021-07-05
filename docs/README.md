@@ -22,10 +22,10 @@
 
  - 	[1-类加载子系统概述](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/01-类加载子系统.md)
  - 	[2-类加载过程](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/02-类加载过程.md)
- -   [3-类加载器分类](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/03-类加载器的分类.md)
- -   [4-类加载器的常用方法](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/04-类加载器的常用方法.md)
- -   [5-双亲委派机制](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/05-双亲委派机制.md)
- -   [6-沙箱安全机制](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/06-沙箱安全机制.md)
+ -  [3-类加载器分类](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/03-类加载器的分类.md)
+ -  [4-类加载器的常用方法](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/04-类加载器的常用方法.md)
+ -  [5-双亲委派机制](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/05-双亲委派机制.md)
+ -  [6-沙箱安全机制](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/06-沙箱安全机制.md)
 
 ### 2.  运行时数据区 
 
