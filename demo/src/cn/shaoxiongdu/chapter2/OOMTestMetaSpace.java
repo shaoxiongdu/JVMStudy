@@ -1,4 +1,5 @@
 package cn.shaoxiongdu.chapter2;
+/*
 
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.Opcodes;
@@ -23,4 +24,4 @@ public class OOMTestMetaSpace extends ClassLoader {
             System.out.println(count);
         }
     }
-}
+}*/
