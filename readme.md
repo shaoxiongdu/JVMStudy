@@ -3,10 +3,12 @@
 </center>
 <p align="center">
     <img src="https://img.shields.io/badge/JVM-底层原理-blue">
-  <a href="https://gitee.com/ShaoxiongDu/imageBed/raw/master/20210704162839.png"><img title="点击扫码" src="https://img.shields.io/badge/公众号-Github推荐-green" ></a>
-  <a href="https://space.bilibili.com/525438321"><img src="https://img.shields.io/badge/持续分享有趣，好玩的开源项目-orange" alt=""></a>
+    
   <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy" >
 </p>
+
+## Star 曲线
+[![Stargazers over time](https://starchart.cc/shaoxiongdu/JVMStudy.svg)](https://github.com/shaoxiongdu/JVMStudy)
 
 ## 一、JVM底层的中文架构
 
