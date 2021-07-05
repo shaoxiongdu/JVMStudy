@@ -7,8 +7,6 @@
     <img src="https://img.shields.io/badge/JVM-底层原理解析-yellow">
     <img src="https://img.shields.io/badge/JVM-面试知识整理-green">
   <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy">
-    <br>
-    <a href="https://shaoxiongdu.github.io/JVMStudy/#/" target="_blank">在线阅读</a>
 </p>
 
 ## 一、Star 曲线
