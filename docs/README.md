@@ -17,7 +17,7 @@
 
 ## 二、项目结构的思维导图 
 
-![JVMStudy](../JVMStudy.png)
+![JVMStudy](JVMStudy.png)
 
 ## 三、清单 
 
