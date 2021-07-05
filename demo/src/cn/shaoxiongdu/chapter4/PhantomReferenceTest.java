@@ -12,6 +12,8 @@ public class PhantomReferenceTest {
         public void run() {
             while (true) {
                 if (phantomQueue != null) {
+
+                    /*获取引用队列*/
                     PhantomReference<PhantomReferenceTest> objt = null;
                     try {
                         objt = (PhantomReference<PhantomReferenceTest>) phantomQueue.remove();
