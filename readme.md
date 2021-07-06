@@ -67,11 +67,16 @@
 
 ## 四、参考文献
 
-> 1、Oracle官网JVM文档
+> ### 1.Oracle官网JVM文档
 >
 > - [JDK1.8的JVM规范](https://docs.oracle.com/javase/specs/jvms/se8/html/)
 > - [JDK1.7的JVM规范](https://docs.oracle.com/javase/specs/jvms/se7/html)
 > - [JDK1.6的JVM规范](https://docs.oracle.com/javase/specs/jvms/se6/html)
+>
+> ### 2.相关书籍
+>
+> - 《深入理解JVM虚拟机》 周志明-著
+
 
 ## 五、反馈及改进
 

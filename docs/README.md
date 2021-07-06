@@ -48,13 +48,27 @@
 - [3-垃圾回收相关概念](https://github.com/shaoxiongdu/JVMStudy/blob/main/04-垃圾回收机制/03-垃圾回收相关概念.md)
 - [4-垃圾回收器](https://github.com/shaoxiongdu/JVMStudy/blob/main/04-垃圾回收机制/04-垃圾回收器.md)
 
+### 5. 性能优化与调优
+
+- [1-背景说明](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/01-背景说明.md)
+- [2-JVM监控及诊断工具-命令行篇](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/02-JVM监控及诊断工具-命令行篇.md)
+- [3-JVM监控及诊断工具-GUI篇](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/03-JVM监控及诊断工具-GUI篇.md)
+- [4-JVM运行时参数](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/04-JVM运行时参数.md)
+- [5-分析GC日志](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/05-分析GC日志.md)
+- [6-OOM 常见问题及解决方案](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/06-OOM常见问题及解决方案.md)
+- [7-性能优化案例](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/07-性能优化案例.md)
+
 ## 四、参考文献
 
-### 1、Oracle官网JVM文档
+> ### 1.Oracle官网JVM文档
 >
 > - [JDK1.8的JVM规范](https://docs.oracle.com/javase/specs/jvms/se8/html/)
 > - [JDK1.7的JVM规范](https://docs.oracle.com/javase/specs/jvms/se7/html)
 > - [JDK1.6的JVM规范](https://docs.oracle.com/javase/specs/jvms/se6/html)
+>
+> ### 2.相关书籍
+> 
+> - 《深入理解JVM虚拟机》 周志明-著
 
 ## 五、反馈及改进
 
@@ -76,8 +90,8 @@
 
 ## 八、致谢
 
->  1. 感谢尚硅谷提供的在线课程视频资料 [在线课程](https://www.bilibili.com/video/BV1PJ411n7xZ)
+>  1. 感谢尚硅谷提供的在线课程视频资料 [在线课程地址](https://www.bilibili.com/video/BV1PJ411n7xZ)
 >  2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
->  3. 感谢Gitee提供的图床平台 [相关地址](https://gitee.com/ShaoxiongDu/imageBed)
+>  3. 感谢Gitee提供的图床平台 [图床地址](https://gitee.com/ShaoxiongDu/imageBed)
 
 
