@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2021 ShaoxiongDu <email@shaoxiongdu.cn> All Rights Reserved
+ */
+
 package cn.shaoxiongdu.chapter4;
 
 import java.util.ArrayList;
@@ -8,6 +12,7 @@ import java.util.Scanner;
 public class GCRootsTest {
     public static void main(String[] args) {
         List<Object> numList = new ArrayList<>();
+
         Date birth = new Date();
 
         for (int i = 0; i < 100; i++) {
@@ -18,6 +23,7 @@ public class GCRootsTest {
                 e.printStackTrace();
             }
         }
+
 
         System.out.println("数据添加完毕，请操作：");
         new Scanner(System.in).next();
