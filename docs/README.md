@@ -68,8 +68,19 @@
 > - [JDK1.6的JVM规范](https://docs.oracle.com/javase/specs/jvms/se6/html)
 >
 > ### 2.相关书籍
-> 
-> - 《深入理解JVM虚拟机》 周志明-著
+>
+> 《深入理解JVM虚拟机》 周志明 著
+>
+> 《Java虚拟机规范》[詹姆斯·高斯林 (James Gosling)](https://book.douban.com/search/詹姆斯·高斯林)
+>
+> 《Java语言规范》
+>
+> 《垃圾回收算法手册：自动内存管理的艺术》
+>
+> 《Virtual Machines: Versatile Platforms for System and Processes》
+>
+> 《Java性能优化权威指南》 [Charlie Hunt](https://book.douban.com/search/CharlieHunt) 著
+>
 
 ## 五、反馈及改进
 

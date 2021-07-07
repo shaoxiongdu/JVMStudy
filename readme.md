@@ -17,7 +17,7 @@
 
 ## 一、JVM底层体系-中文
 
-![JVM架构体系](https://gitee.com/ShaoxiongDu/imageBed/raw/master/%E7%AC%AC02%E7%AB%A0_JVM%E6%9E%B6%E6%9E%84-%E4%B8%AD.jpg)
+![JVM架构体系](./JVM底层体系.jpg)
 
 ## 二、项目结构的思维导图 
 
@@ -77,11 +77,17 @@
 > ### 2.相关参考书籍
 >
 > 《深入理解JVM虚拟机》 周志明 著
+> 
 > 《Java虚拟机规范》[詹姆斯·高斯林 (James Gosling)](https://book.douban.com/search/詹姆斯·高斯林)
+> 
 > 《Java语言规范》
+> 
 > 《垃圾回收算法手册：自动内存管理的艺术》
+> 
 > 《Virtual Machines: Versatile Platforms for System and Processes》
-> 《Java性能优化权威指南》 [Charlie Hunt](https://book.douban.com/search/Charlie Hunt) 著
+> 
+> 《Java性能优化权威指南》 [Charlie Hunt](https://book.douban.com/search/CharlieHunt) 著
+> 
 
 
 ## 五、反馈及改进
