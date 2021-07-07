@@ -57,13 +57,14 @@
 
 ### 5. 性能优化与调优
 
-- [1-背景说明](./05-性能优化/01-背景说明.md)
+- [1-性能优化概述](05-性能优化/01-性能优化概述.md)
 - [2-JVM监控及诊断工具-命令行篇](./05-性能优化/02-JVM监控及诊断工具-命令行篇.md)
 - [3-JVM监控及诊断工具-GUI篇](./05-性能优化/03-JVM监控及诊断工具-GUI篇.md)
 - [4-JVM运行时参数](./05-性能优化/04-JVM运行时参数.md)
 - [5-分析GC日志](./05-性能优化/05-分析GC日志.md)
 - [6-OOM 常见问题及解决方案](./05-性能优化/06-OOM常见问题及解决方案.md)
 - [7-性能优化案例](./05-性能优化/07-性能优化案例.md)
+- [8-Java代码底层及其他高层调优](./05-性能优化/08-Java代码底层及其他高层调优.md)
 
 ## 四、参考文献
 
@@ -73,9 +74,14 @@
 > - [JDK1.7的JVM规范](https://docs.oracle.com/javase/specs/jvms/se7/html)
 > - [JDK1.6的JVM规范](https://docs.oracle.com/javase/specs/jvms/se6/html)
 >
-> ### 2.相关书籍
+> ### 2.相关参考书籍
 >
-> - 《深入理解JVM虚拟机》 周志明-著
+> 《深入理解JVM虚拟机》 周志明 著
+> 《Java虚拟机规范》[詹姆斯·高斯林 (James Gosling)](https://book.douban.com/search/詹姆斯·高斯林)
+> 《Java语言规范》
+> 《垃圾回收算法手册：自动内存管理的艺术》
+> 《Virtual Machines: Versatile Platforms for System and Processes》
+> 《Java性能优化权威指南》 [Charlie Hunt](https://book.douban.com/search/Charlie Hunt) 著
 
 
 ## 五、反馈及改进
