@@ -9,7 +9,7 @@
   <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy" >
 <br>
 <br>
-    <a href="https://shaoxiongdu.github.io/JVMStudy/#/" target="_blank">在线阅读</a>
+    <h3><a href="https://shaoxiongdu.github.io/JVMStudy/#/" style="color: brown" target="_blank">项目在线站点</a></h3>
 </div>
 
 ## Star 曲线
