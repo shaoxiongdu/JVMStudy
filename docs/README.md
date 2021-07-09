@@ -50,7 +50,7 @@
 
 ### 5. 性能优化与调优
 
-- [1-背景说明](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/01-背景说明.md)
+- [1-背景说明](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/01-性能优化概述.md)
 - [2-JVM监控及诊断工具-命令行篇](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/02-JVM监控及诊断工具-命令行篇.md)
 - [3-JVM监控及诊断工具-GUI篇](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/03-JVM监控及诊断工具-GUI篇.md)
 - [4-JVM运行时参数](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/04-JVM运行时参数.md)
