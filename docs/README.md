@@ -55,13 +55,10 @@
 - [3-JVM监控及诊断工具-GUI篇](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/03-JVM监控及诊断工具-GUI篇.md)
 - [4-JVM运行时参数](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/04-JVM运行时参数.md)
 - [5-分析GC日志](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/05-分析GC日志.md)
-- [6-OOM 常见问题及解决方案](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/06-OOM常见问题及解决方案.md)
-- [7-性能优化案例](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/07-性能优化案例.md)
-- [8-Java代码底层及其他高层调优](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/08-Java代码底层及其他高层调优.md)
 
 ## 四、参考文献
 
-> ### 1.Oracle官网JVM文档
+> ### 1.官网JVM规范
 >
 > - [JDK1.8的JVM规范](https://docs.oracle.com/javase/specs/jvms/se8/html/)
 > - [JDK1.7的JVM规范](https://docs.oracle.com/javase/specs/jvms/se7/html)
@@ -105,5 +102,6 @@
 >  1. 感谢尚硅谷提供的在线课程视频资料 [在线课程地址](https://www.bilibili.com/video/BV1PJ411n7xZ)
 >  2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
 >  3. 感谢Gitee提供的图床平台 [图床地址](https://gitee.com/ShaoxiongDu/imageBed)
+>  4. 感谢GitHub提供的图床平台 [图床地址](https://github.com/shaoxiongdu/images)
 
 ## 

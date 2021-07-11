@@ -9,19 +9,19 @@
   <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy" >
 <br>
 <br>
-    <h3><a href="https://shaoxiongdu.github.io/JVMStudy/#/" style="color: brown" target="_blank">项目在线站点</a></h3>
+    <h3><a href="https://shaoxiongdu.github.io/JVMStudy/#/" target="_blank">项目在线站点</a></h3>
 </div>
 
 ## Star 曲线
 [![Stargazers over time](https://starchart.cc/shaoxiongdu/JVMStudy.svg)](https://github.com/shaoxiongdu/JVMStudy)
 
-## 一、JVM底层体系-中文
+## 一、JVM底层-中文
 
-![JVM架构体系](./JVM底层体系.jpg)
+![JVM架构体系](./iamges/JVM底层体系.jpg)
 
-## 二、项目结构的思维导图 
+## 二、思维导图 
 
-![JVMStudy](./JVMStudy.png)
+![JVMStudy](./iamges/JVMStudy.png)
 
 ## 三、清单 
 
@@ -47,7 +47,7 @@
 - [9-字符串常量池](02-运行时数据区/09-字符串常量池.md)
 
 ### 3. 执行引擎
-- [1-执行引擎]()
+- [1-执行引擎](./03-JVM执行引擎/JVM执行引擎.md)
 
 ### 4. 垃圾回收机制
 - [1-概述](./04-垃圾回收机制/01-垃圾回收概述.md)
@@ -62,9 +62,6 @@
 - [3-JVM监控及诊断工具-GUI篇](./05-性能优化/03-JVM监控及诊断工具-GUI篇.md)
 - [4-JVM运行时参数](./05-性能优化/04-JVM运行时参数.md)
 - [5-分析GC日志](./05-性能优化/05-分析GC日志.md)
-- [6-OOM 常见问题及解决方案](./05-性能优化/06-OOM常见问题及解决方案.md)
-- [7-性能优化案例](./05-性能优化/07-性能优化案例.md)
-- [8-Java代码底层及其他高层调优](./05-性能优化/08-Java代码底层及其他高层调优.md)
 
 ## 四、参考文献
 
