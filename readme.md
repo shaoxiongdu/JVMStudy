@@ -4,6 +4,7 @@
 <br>
 <div align="center">
     <img src="https://img.shields.io/badge/JVM-底层原理解析-blue">
+    <img src="https://img.shields.io/badge/JVM-JVM内存结构-yellow">
     <img src="https://img.shields.io/badge/JVM-面试知识整理-green">
 
   <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy" >
@@ -65,13 +66,13 @@
 
 ## 四、参考文献
 
-> ### 1.Oracle官网JVM文档
+> ### 1.Oracle官网JVM规范
 >
 > - [JDK1.8的JVM规范](https://docs.oracle.com/javase/specs/jvms/se8/html/)
 > - [JDK1.7的JVM规范](https://docs.oracle.com/javase/specs/jvms/se7/html)
 > - [JDK1.6的JVM规范](https://docs.oracle.com/javase/specs/jvms/se6/html)
 >
-> ### 2.相关参考书籍
+> ### 2.参考书籍
 >
 > 《深入理解JVM虚拟机》 周志明 著
 > 
@@ -86,14 +87,13 @@
 > 《Java性能优化权威指南》 [Charlie Hunt](https://book.douban.com/search/CharlieHunt) 著
 > 
 
-
 ## 五、反馈及改进
 
 如果您在学习的时候遇到了任何问题，或者清单有任何可以改进的地方，
 
 非常欢迎提出issues,看到就会回馈.并且将您添加到项目贡献者列表中。
 
-## 六、参与贡献
+## 六、参与贡献（非常欢迎！）
 
 1. Fork 本仓库
 2. 新建 Feat_xxx 分支
@@ -110,4 +110,5 @@
 >  1. 感谢尚硅谷提供的在线课程视频资料 [在线课程](https://www.bilibili.com/video/BV1PJ411n7xZ)
 >  2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
 >  3. 感谢Gitee提供的图床平台 [相关地址](https://gitee.com/ShaoxiongDu/imageBed)
+>  4. 感谢GitHub提供的图床平台 [图床地址](https://github.com/shaoxiongdu/images)
 
