@@ -88,7 +88,7 @@ cmd jconsole或者在jdk bin目录下执行即可
   在class文件加载之前，将相关的统计功能代码写入到class中，对正在运行的JVM有影响。
 
   - 优点：调用堆栈信息准确
-  - 缺点：如果分析的类较多，则CPU开销较高。
+  - 缺点：如果分析的类较多，则CPU开销较高。此模式配合Filter使用。
 
 - Sampling抽样模式
 
@@ -97,20 +97,15 @@ cmd jconsole或者在jdk bin目录下执行即可
   - 优点：对应用影响小
   - 缺点： 一些数据无法提供
 
-#### 具体使用
-
-- 堆便利
-- 内存视图
-
 ## 六. Arthas（阿里巴巴）
 
-## 七. Java Mission Control
+![image-20210711201632574](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/image-20210711201632574.png)
 
-## 八. Btrace
+>  阿尔萨斯，是Alibaba开源的Java诊断工具，在线排查问题，无需重启，动态跟踪Java代码，实时监控JVM状态。
 
-## 九.Flame Graphs(火焰图)
+### [官方地址](https://arthas.aliyun.com/zh-cn/)
 
-## X. 关于内存泄漏
+## 七. 关于内存泄漏
 
 可达性分析算法来判断对象是否是不再使用的对象，本质是判断一个对象是否还被引用，由于代码的实现不同就会出现很多种内存泄漏问题。
 

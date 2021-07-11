@@ -32,6 +32,6 @@ public class MemoryLeak {
 class Bean {
     int size = 10;
     String info = "hello,atguigu";
-     ArrayList list = new ArrayList();
-//    static ArrayList list = new ArrayList();
+     //ArrayList list = new ArrayList();
+    static ArrayList list = new ArrayList();
 }
