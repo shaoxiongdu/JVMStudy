@@ -87,7 +87,7 @@ count  与上个参数 配合使用 表示一共输出多少次 空表示一直�
 
 ## 四 jinfo 查看和修改JVM配置参数
 
-- jinfo <option> <pid>
+> jinfo <option> <pid>
 
 - option
 
@@ -113,7 +113,25 @@ count  与上个参数 配合使用 表示一共输出多少次 空表示一直�
 
 ## 八 jcmd 多功能命令行
 
+>  在JDK1.7之后，新增了一个命令行工具jcmd 他 是一个多功能的工具，实现之前的所有功能。
+
+#### 语法
+
+- jcmd -l 列出所有的Java进程
+
+  ![image-20210711132042497](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/image-20210711132042497.png)
+
+- jcmd pid help : 列出所有可用的指令
+
+  ![image-20210711132310412](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/image-20210711132310412.png)
+
+- jcmd pid 命令（上图中可选的命令均可）
+
+  ![image-20210711132941235](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/image-20210711132941235.png)
+
 ## 九 jstatd 远程主机信息收集
 
+![image-20210711133144394](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/image-20210711133144394.png)
 
+> 通过jstatd 可以建立本地计算机与远程监控工具的通信。jstatd将本机的Java应用程序信息传递给远程计算机。
 
