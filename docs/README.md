@@ -1,14 +1,4 @@
 
-<center>
-<img src="https://gitee.com/ShaoxiongDu/imageBed/raw/master/info.jpg" style="width:700px" >
-</center>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/JVM-底层原理解析-yellow">
-    <img src="https://img.shields.io/badge/JVM-面试知识整理-green">
-  <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy">
-</p>
-
 ## 一、Star 曲线
 [![Stargazers over time](https://starchart.cc/shaoxiongdu/JVMStudy.svg)](https://github.com/shaoxiongdu/JVMStudy)
 
@@ -20,41 +10,41 @@
 
 ### 1. 类加载子系统
 
-- [1-类加载子系统概述](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/01-类加载子系统.md)
-- [2-类加载过程](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/02-类加载过程.md)
-- [3-类加载器分类](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/03-类加载器的分类.md)
-- [4-类加载器的常用方法](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/04-类加载器的常用方法.md)
-- [5-双亲委派机制](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/05-双亲委派机制.md)
-- [6-沙箱安全机制](https://github.com/shaoxiongdu/JVMStudy/blob/main/01-类加载子系统/06-沙箱安全机制.md)
+- [1-类加载子系统概述](/01-类加载子系统/01-类加载子系统.md)
+- [2-类加载过程](/01-类加载子系统/02-类加载过程.md)
+- [3-类加载器分类](/01-类加载子系统/03-类加载器的分类.md)
+- [4-类加载器的常用方法](/01-类加载子系统/04-类加载器的常用方法.md)
+- [5-双亲委派机制](/01-类加载子系统/05-双亲委派机制.md)
+- [6-沙箱安全机制](/01-类加载子系统/06-沙箱安全机制.md)
 
 ### 2.  运行时数据区 
 
-- [1-运行时数据区的内部结构](https://github.com/shaoxiongdu/JVMStudy/blob/main/02-运行时数据区/01-运行时数据区内部结构.md)
-- [2-程序计数器(PC寄存器)](https://github.com/shaoxiongdu/JVMStudy/blob/main/02-运行时数据区/02-程序计数器(PC寄存器).md)
-- [3-虚拟机栈](https://github.com/shaoxiongdu/JVMStudy/blob/main/02-运行时数据区/03-虚拟机栈.md)
-- [4-本地方法接口](https://github.com/shaoxiongdu/JVMStudy/blob/main/02-运行时数据区/04-本地方法接口.md)
-- [5-本地方法栈](https://github.com/shaoxiongdu/JVMStudy/blob/main/02-运行时数据区/05-本地方法栈.md)
-- [6-堆](https://github.com/shaoxiongdu/JVMStudy/blob/main/02-运行时数据区/06-堆.md)
-- [7-方法区](https://github.com/shaoxiongdu/JVMStudy/blob/main/02-运行时数据区/07-方法区.md)
-- [8-对象的实例化内存布局与访问定位+直接内存](https://github.com/shaoxiongdu/JVMStudy/blob/main/02-运行时数据区/08-对象的实例化内存布局与访问定位+直接内存.md)
-- [9-字符串常量池](https://github.com/shaoxiongdu/JVMStudy/blob/main/02-运行时数据区/09-字符串常量池.md)
+- [1-运行时数据区的内部结构](/02-运行时数据区/01-运行时数据区内部结构.md)
+- [2-程序计数器(PC寄存器)](/02-运行时数据区/02-程序计数器(PC寄存器).md)
+- [3-虚拟机栈](/02-运行时数据区/03-虚拟机栈.md)
+- [4-本地方法接口](/02-运行时数据区/04-本地方法接口.md)
+- [5-本地方法栈](/02-运行时数据区/05-本地方法栈.md)
+- [6-堆](/02-运行时数据区/06-堆.md)
+- [7-方法区](/02-运行时数据区/07-方法区.md)
+- [8-对象的实例化内存布局与访问定位+直接内存](/02-运行时数据区/08-对象的实例化内存布局与访问定位+直接内存.md)
+- [9-字符串常量池](/02-运行时数据区/09-字符串常量池.md)
 
 ### 3. 执行引擎
-- [1-执行引擎](https://github.com/shaoxiongdu/JVMStudy/blob/main/03-JVM执行引擎/JVM执行引擎.md)
+- [1-执行引擎](/03-JVM执行引擎/JVM执行引擎.md)
 
 ### 4. 垃圾回收机制
-- [1-概述](https://github.com/shaoxiongdu/JVMStudy/blob/main/04-垃圾回收机制/01-垃圾回收概述.md)
-- [2-常见算法](https://github.com/shaoxiongdu/JVMStudy/blob/main/04-垃圾回收机制/02-垃圾回收相关算法.md)
-- [3-垃圾回收相关概念](https://github.com/shaoxiongdu/JVMStudy/blob/main/04-垃圾回收机制/03-垃圾回收相关概念.md)
-- [4-垃圾回收器](https://github.com/shaoxiongdu/JVMStudy/blob/main/04-垃圾回收机制/04-垃圾回收器.md)
+- [1-概述](/04-垃圾回收机制/01-垃圾回收概述.md)
+- [2-常见算法](/04-垃圾回收机制/02-垃圾回收相关算法.md)
+- [3-垃圾回收相关概念](/04-垃圾回收机制/03-垃圾回收相关概念.md)
+- [4-垃圾回收器](/04-垃圾回收机制/04-垃圾回收器.md)
 
 ### 5. 性能优化与调优
 
-- [1-背景说明](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/01-性能优化概述.md)
-- [2-JVM监控及诊断工具-命令行篇](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/02-JVM监控及诊断工具-命令行篇.md)
-- [3-JVM监控及诊断工具-GUI篇](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/03-JVM监控及诊断工具-GUI篇.md)
-- [4-JVM运行时参数](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/04-JVM运行时参数.md)
-- [5-分析GC日志](https://github.com/shaoxiongdu/JVMStudy/blob/main/05-性能优化/05-分析GC日志.md)
+- [1-背景说明](/05-性能优化/01-性能优化概述.md)
+- [2-JVM监控及诊断工具-命令行篇](/05-性能优化/02-JVM监控及诊断工具-命令行篇.md)
+- [3-JVM监控及诊断工具-GUI篇](/05-性能优化/03-JVM监控及诊断工具-GUI篇.md)
+- [4-JVM运行时参数](/05-性能优化/04-JVM运行时参数.md)
+- [5-分析GC日志](/05-性能优化/05-分析GC日志.md)
 
 ## 四、参考文献
 
@@ -95,7 +85,7 @@
 
 ## 七、许可证
 
-在 MIT 许可下分发。有关更多信息，请参阅[`LICENSE`](https://github.com/shaoxiongdu/JVMStudy/blob/main/LICENSE)。
+在 MIT 许可下分发。有关更多信息，请参阅[`LICENSE`](../LICENSE)。
 
 ## 八、致谢
 
@@ -103,5 +93,3 @@
 >  2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
 >  3. 感谢Gitee提供的图床平台 [图床地址](https://gitee.com/ShaoxiongDu/imageBed)
 >  4. 感谢GitHub提供的图床平台 [图床地址](https://github.com/shaoxiongdu/images)
-
-## 

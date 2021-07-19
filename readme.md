@@ -48,6 +48,7 @@
 - [9-字符串常量池](02-运行时数据区/09-字符串常量池.md)
 
 ### 3. 执行引擎
+
 - [1-执行引擎](./03-JVM执行引擎/JVM执行引擎.md)
 
 ### 4. 垃圾回收机制
@@ -85,7 +86,6 @@
 > 《Virtual Machines: Versatile Platforms for System and Processes》
 > 
 > 《Java性能优化权威指南》 [Charlie Hunt](https://book.douban.com/search/CharlieHunt) 著
-> 
 
 ## 五、反馈及改进
 
