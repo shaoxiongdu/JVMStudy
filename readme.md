@@ -1,4 +1,5 @@
 <center>
+
 <img src="https://gitee.com/ShaoxiongDu/imageBed/raw/master/info.jpg" style="width:700px" >
 </center>
 <br>
@@ -6,12 +7,12 @@
     <img src="https://img.shields.io/badge/JVM-底层原理解析-blue">
     <img src="https://img.shields.io/badge/JVM-JVM内存结构-yellow">
     <img src="https://img.shields.io/badge/JVM-面试知识整理-green">
+    <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy">
 
-  <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy" >
-<br>
-<br>
-    <h3><a href="https://shaoxiongdu.github.io/JVMStudy/#/" target="_blank">项目在线站点</a></h3>
+<h3><a href="https://shaoxiongdu.github.io/JVMStudy/#/" target="_blank">在线站点（阅读体验更好）</a></h3>
 </div>
+    
+
 
 ## Star 曲线
 [![Stargazers over time](https://starchart.cc/shaoxiongdu/JVMStudy.svg)](https://github.com/shaoxiongdu/JVMStudy)
