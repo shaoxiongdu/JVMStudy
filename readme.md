@@ -92,7 +92,7 @@
 
 如果您在学习的时候遇到了任何问题，或者清单有任何可以改进的地方，
 
-非常欢迎提出issues,看到就会回馈.并且将您添加到项目贡献者列表中。
+非常欢迎提出`issues`,看到就会回馈.并且将您添加到项目贡献者列表中。
 
 ## 六、参与贡献（非常欢迎！）
 
@@ -112,4 +112,11 @@
 >  2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
 >  3. 感谢Gitee提供的图床平台 [相关地址](https://gitee.com/ShaoxiongDu/imageBed)
 >  4. 感谢GitHub提供的图床平台 [图床地址](https://github.com/shaoxiongdu/images)
+
+## 九. 更多开源项目推荐
+
+### 我的公众号 【Github推荐】 持续分享好玩，有趣，又沙雕的开源项目!   欢迎关注 !
+
+> ![Github推荐](https://gitee.com/ShaoxiongDu/imageBed/raw/master/GithubShareQR.jpg)
+
 
