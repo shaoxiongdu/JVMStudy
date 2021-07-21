@@ -18,7 +18,7 @@
 
   要想定位这些问题，一款优秀的性能诊断工具必不可少。
 
-## 二 jps （Java Process Status）查看正在与运行的Java进程
+## 二 jps （Java Process Status）查看正在运行的Java进程
 
 ### 参数
 
@@ -27,6 +27,7 @@
 - -l 输出程序的全限定名
 
 - -m 输出进程启动时传递给main的参数
+  
 - -v 列出JVM参数
 
 ### 注意：
@@ -35,9 +36,9 @@
 
 ## 三 jstat JVM统计信息
 
-- jstat用于监视虚拟机各种运行状态信息，比如类装载，内存，GC，JIT编译等。
+- jstat 用于监视虚拟机各种运行状态信息，比如类装载，内存，GC，JIT编译等。
 
-- jstat -<option> [-t] [-h<lines>] <vmid> [<interval> [<count>]]
+  - ![image-20210721111927416](https://gitee.com/ShaoxiongDu/imageBed/raw/master//images/image-20210721111927416.png)
 
 - option
 
@@ -110,7 +111,7 @@ count  与上个参数 配合使用 表示一共输出多少次 空表示一直�
 
 ## 八 jcmd 多功能命令行
 
->  在JDK1.7之后，新增了一个命令行工具jcmd 他 是一个多功能的工具，实现之前的所有功能。
+>  在JDK1.7之后，新增了一个命令行工具jcmd ，它是一个多功能的工具，实现之前的所有功能。
 
 #### 语法
 
