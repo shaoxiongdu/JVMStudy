@@ -40,8 +40,9 @@ public class Stack {
      * @return
      */
     public Object pop() {
-        if (size == 0)
+        if (size == 0) {
             throw new EmptyStackException();
+        }
         Object result = elements[--size];
 
         //不加此行代码 容易造成内存泄漏
@@ -53,7 +54,8 @@ public class Stack {
      * 扩容
      */
     private void ensureCapacity() {
-        if (elements.length == size)
+        if (elements.length == size) {
             elements = Arrays.copyOf(elements, 2 * size + 1);
+        }
     }
 }
