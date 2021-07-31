@@ -4,9 +4,13 @@
 </center>
 <br>
 <div align="center">
-    <img src="https://img.shields.io/badge/JVM-底层原理解析-blue">
-    <img src="https://img.shields.io/badge/JVM-JVM内存结构-yellow">
-    <img src="https://img.shields.io/badge/JVM-面试知识整理-green">
+    <img src="https://img.shields.io/badge/JVM-类加载子系统-blue">
+    <img src="https://img.shields.io/badge/JVM-运行时数据区-yellow">
+    <img src="https://img.shields.io/badge/JVM-执行引擎-green">
+    <img src="https://img.shields.io/badge/JVM-垃圾回收机制-red">
+    <img src="https://img.shields.io/badge/JVM-性能优化-purple">
+    <img src="https://img.shields.io/badge/JVM-高效并发-pink">
+    <img src="https://img.shields.io/badge/LICENSE-MIT-orange">
     <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy">
 
 <h3><a href="https://shaoxiongdu.github.io/JVMStudy/#/" target="_blank">在线站点（阅读体验更好）</a></h3>
@@ -116,11 +120,12 @@
 >  1. 感谢尚硅谷提供的在线课程视频资料 [在线课程](https://www.bilibili.com/video/BV1PJ411n7xZ)
 >  2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
 >  3. 感谢Gitee提供的图床平台 [相关地址](https://gitee.com/ShaoxiongDu/imageBed)
->  4. 感谢GitHub提供的图床平台 [图床地址](https://github.com/shaoxiongdu/images)
+>  4. 感谢GitHub提供仓库存储数据
+>  5. 感谢在线站点生成器 [docsify](https://docsify.js.org/) 提供的在线站点生成功能
 
 ## 更多开源项目推荐
 
-### 我的公众号 【Github推荐】 持续分享好玩，有趣，又沙雕的开源项目!   欢迎关注 !
+### 【Github推荐】 持续分享好玩，有趣，又沙雕的开源项目!   欢迎关注 !
 
 > ![Github推荐](https://gitee.com/ShaoxiongDu/imageBed/raw/master/GithubShareQR.jpg)
 
