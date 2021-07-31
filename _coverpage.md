@@ -10,4 +10,4 @@
 - JVM-面试知识整理
 
 [GitHub](https://github.com/shaoxiongdu/JVMStudy)
-[快速开始](/?id=java学习笔记)
+[快速开始](/?id=一、jvm底层-中文)
