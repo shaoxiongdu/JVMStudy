@@ -1,5 +1,7 @@
 # JVM执行引擎
 
+![](https://gitee.com/ShaoxiongDu/imageBed/raw/master//images/JVM底层体系.jpg)
+
 ## 执行引擎概述
 
 -  执行引擎是Java虚拟机的核心组成部分之一。

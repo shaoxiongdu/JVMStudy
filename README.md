@@ -11,21 +11,14 @@
 
 <h3><a href="https://shaoxiongdu.github.io/JVMStudy/#/" target="_blank">在线站点（阅读体验更好）</a></h3>
 </div>
-    
 
-
-## Star 曲线
 [![Stargazers over time](https://starchart.cc/shaoxiongdu/JVMStudy.svg)](https://github.com/shaoxiongdu/JVMStudy)
 
-## 一、JVM底层-中文
-
-![JVM架构体系](./iamges/JVM底层体系.jpg)
-
-## 二、思维导图 
+## 思维导图 
 
 ![JVMStudy](./iamges/JVMStudy.png)
 
-## 三、清单 
+## 清单 
 
 ### 1. 类加载子系统
 
@@ -50,7 +43,9 @@
 
 ### 3. 执行引擎
 
-- [1-执行引擎](./03-JVM执行引擎/JVM执行引擎.md)
+- [1-执行引擎](./03-JVM执行引擎/01-JVM执行引擎.md)
+- [2-前端编译与优化](03-JVM执行引擎/01-JVM执行引擎.md)
+- [3-后端编译与优化](03-JVM执行引擎/01-JVM执行引擎.md)
 
 ### 4. 垃圾回收机制
 - [1-概述](./04-垃圾回收机制/01-垃圾回收概述.md)
@@ -66,7 +61,17 @@
 - [4-JVM运行时参数](./05-性能优化/04-JVM运行时参数.md)
 - [5-分析GC日志](./05-性能优化/05-分析GC日志.md)
 
-## 四、参考文献
+
+### 6. 高效并发
+
+- [1-Java内存模型](06-高效并发/01-Java内存模型.md)
+- [2-Java与线程](06-高效并发/02-Java与线程.md)
+- [3-Java与协程](06-高效并发/03-Java与协程.md)
+- [4-线程安全](06-高效并发/04-线程安全.md)
+- [5-Java锁优化](06-高效并发/05-锁优化.md)
+
+
+## 参考文献
 
 > ### 1.Oracle官网JVM规范
 >
@@ -88,13 +93,13 @@
 > 
 > 《Java性能优化权威指南》 [Charlie Hunt](https://book.douban.com/search/CharlieHunt) 著
 
-## 五、反馈及改进
+## 反馈及改进
 
 如果您在学习的时候遇到了任何问题，或者清单有任何可以改进的地方，
 
 非常欢迎提出`issues`,看到就会回馈.并且将您添加到项目贡献者列表中。
 
-## 六、参与贡献（非常欢迎！）
+## 参与贡献（非常欢迎！）
 
 1. Fork 本仓库
 2. 新建 Feat_xxx 分支
@@ -102,18 +107,18 @@
 4. 新建 Pull Request，填写必要信息。
 5. 等待审核即可。通过之后会邮件通知您。
 
-## 七、许可证
+## 许可证
 
 在 MIT 许可下分发。有关更多信息，请参阅[`LICENSE`](./LICENSE)。
 
-## 八、致谢
+## 致谢
 
 >  1. 感谢尚硅谷提供的在线课程视频资料 [在线课程](https://www.bilibili.com/video/BV1PJ411n7xZ)
 >  2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
 >  3. 感谢Gitee提供的图床平台 [相关地址](https://gitee.com/ShaoxiongDu/imageBed)
 >  4. 感谢GitHub提供的图床平台 [图床地址](https://github.com/shaoxiongdu/images)
 
-## 九. 更多开源项目推荐
+## 更多开源项目推荐
 
 ### 我的公众号 【Github推荐】 持续分享好玩，有趣，又沙雕的开源项目!   欢迎关注 !
 
