@@ -16,4 +16,4 @@
 - 高效并发
 
 [GitHub](https://github.com/shaoxiongdu/JVMStudy)
-[快速开始](/?id=思维导图)
+[快速开始](/?id=一、思维导图)
