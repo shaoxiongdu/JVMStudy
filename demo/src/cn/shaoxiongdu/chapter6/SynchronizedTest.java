@@ -7,12 +7,12 @@ package cn.shaoxiongdu.chapter6;
  */
 public class SynchronizedTest {
 
-
-
     private static int count = 0;
 
-    public static synchronized void increment(){
-        count++;
+    public synchronized void dosomething(){
+        synchronized (SynchronizedTest.class){
+
+        }
     }
 
     public static void main(String[] args) {
