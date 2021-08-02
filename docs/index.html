@@ -60,5 +60,65 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+  <script type="text/javascript">
+
+    /* 鼠标点击特效 */
+    jQuery(document).ready(function($) {
+      $("body").click(function(e) {
+        //随机选择文字
+        var clickWord = [
+          "富强",
+          "民主",
+          "文明",
+          "和谐",
+          "自由",
+          "平等",
+          "公正",
+          "法治",
+          "爱国",
+          "敬业",
+          "诚信",
+          "友善",
+        ]
+
+        var a_idx = Math.floor((Math.random() * clickWord.length));
+        // 随机产生文字颜色
+        var color1 = Math.floor((Math.random() * 255));
+        var color2 = Math.floor((Math.random() * 255));
+        var color3 = Math.floor((Math.random() * 255));
+
+        a_idx = (a_idx + 1) % clickWord.length;
+        var $i = $(`<span/>`).text(clickWord[a_idx]);
+
+        var x = e.pageX,
+                y = e.pageY;
+        $i.css({　　　　　　//文字样式--------------------------
+          "z-index": 9999999999999 ,
+          "top": y - 20,
+          "left": x,
+          "position": "absolute",
+          "font-family":"mmm",
+          "fontSize":Math.floor((Math.random() * 22)+15),
+          "font-weight": "bold",
+          "color": "rgb("+color1+","+color2+","+color3+")",
+          "-webkit-user-select":"none",
+          "-moz-user-select":"none",
+          "-ms-user-select":"none",
+          "user-select":"none",
+        });
+        $("body").append($i);
+        $i.animate({
+                  "top": y - 200,  //点击后文字上升高度
+                  "opacity": 0    //透明度
+                },
+                1500, //文字消失时间
+                function() {
+                  $i.remove();
+                });
+      });
+    });
+
+  </script>
 </body>
 </html>
