@@ -20,7 +20,7 @@
 
 ## 思维导图 
 
-![JVMStudy](./iamges/JVMStudy.png)
+![JVMStudy](docs/JVMStudy.png)
 
 ## 清单 
 
