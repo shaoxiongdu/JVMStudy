@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/LICENSE-MIT-orange">
     <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy">
 
-<h3><a href="https://shaoxiongdu.github.io/JVMStudy/#/" target="_blank">在线站点（阅读体验更好）</a></h3>
+<h3><a href="jvmstudy.top" target="_blank">  官网 jvmstudy.top（阅读体验更好）</a></h3>
 </div>
 
 [![Stargazers over time](https://starchart.cc/shaoxiongdu/JVMStudy.svg)](https://github.com/shaoxiongdu/JVMStudy)
@@ -68,9 +68,9 @@
 ### 6. 高效并发
 
 - [1-Java内存模型](./06-高效并发/01-Java内存模型.md)
-- [2-Java与线程](06-高效并发/02-Java线程.md)
-- [3-线程安全](06-高效并发/04-线程安全.md)
-- [4-锁优化](06-高效并发/05-锁优化.md)
+- [2-Java与线程](./06-高效并发/02-Java线程.md)
+- [3-线程安全](./06-高效并发/04-线程安全.md)
+- [4-锁优化](./06-高效并发/05-锁优化.md)
 
 ## 参考文献
 
