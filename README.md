@@ -119,7 +119,6 @@
 >  5. 感谢在线站点生成器 [docsify](https://docsify.js.org/) 提供的在线站点生成功能
 
 ## 八、分享好玩的项目，挖掘开源的价值！
-
-<img src='https://s3.bmp.ovh/imgs/2021/08/190343235c51c7bb.jpg' style='width:300px'>
+![](https://gitee.com/ShaoxiongDu/imageBed/raw/master/image-20210805162948040.png)
 
 
