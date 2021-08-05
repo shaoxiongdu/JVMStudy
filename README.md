@@ -120,6 +120,6 @@
 
 ## 八、分享好玩的项目，挖掘开源的价值！
 
-<img src='https://s3.bmp.ovh/imgs/2021/08/190343235c51c7bb.jpg' style='width=300px'> ![Github推荐]()
+<img src='https://s3.bmp.ovh/imgs/2021/08/190343235c51c7bb.jpg' style='width:300px'>
 
 
