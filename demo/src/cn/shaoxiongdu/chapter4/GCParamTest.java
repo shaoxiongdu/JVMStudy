@@ -7,7 +7,7 @@ package cn.shaoxiongdu.chapter4;
 /**
  * @Author: Shaoxiong Du <email@shaoxiongdu.cn>
  * @Date: 2021/7/6
- * @Describe: XXX
+ * @Describe: 测试Java对象存储规则
  */
 public class GCParamTest {
 
