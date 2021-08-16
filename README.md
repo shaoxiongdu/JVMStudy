@@ -118,7 +118,5 @@
 >  4. 感谢GitHub提供仓库存储数据
 >  5. 感谢在线站点生成器 [docsify](https://docsify.js.org/) 提供的在线站点生成功能
 
-## 八、分享好玩的项目，挖掘开源的价值！
-![](https://gitee.com/ShaoxiongDu/imageBed/raw/master/image-20210805162948040.png)
 
 
