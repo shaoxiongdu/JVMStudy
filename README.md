@@ -92,7 +92,7 @@
 > 
 > 《Java性能优化权威指南》 [Charlie Hunt](https://book.douban.com/search/CharlieHunt) 著
 
-## 更多开源项目
+## 四、更多开源项目
 
 #### 安利一波我们的公众号：【挖掘开源的价值】
 
@@ -102,11 +102,11 @@
 
 > ![Github推荐](https://gitee.com/ShaoxiongDu/imageBed/raw/master/image-20210820144130666.png)
 
-## 四、反馈及改进
+## 五、反馈及改进
 
 欢迎提出`issues`,看到就会回馈.并且将您添加到项目贡献者列表中。
 
-## 五、参与贡献（非常欢迎！）
+## 六、参与贡献（非常欢迎！）
 
 > 手动打字难免会有错别字，如果您在学习过程中发现了错别字或者需要补充及修正的知识点。
 >
@@ -120,11 +120,11 @@
 4. 新建 Pull Request，填写必要信息。
 5. 等待审核即可。通过之后会邮件通知您。
 
-## 六、许可证
+## 七、许可证
 
 在 MIT 许可下分发。有关更多信息，请参阅[`LICENSE`](./LICENSE)。
 
-## 七、致谢
+## 八、致谢
 
 >  1. 感谢尚硅谷提供的在线课程视频资料 [在线课程](https://www.bilibili.com/video/BV1PJ411n7xZ)
 >  2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
