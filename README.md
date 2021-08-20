@@ -92,6 +92,16 @@
 > 
 > 《Java性能优化权威指南》 [Charlie Hunt](https://book.douban.com/search/CharlieHunt) 著
 
+## 更多开源项目
+
+#### 安利一波我们的公众号：【挖掘开源的价值】
+
+每天都会分享一些好玩，有趣，又沙雕的开源项目。或者是比较实用的开发工具。
+
+### 我们的目标是：【分享好玩的项目，挖掘开源的价值】。
+
+> ![Github推荐](https://gitee.com/ShaoxiongDu/imageBed/raw/master/image-20210820144130666.png)
+
 ## 四、反馈及改进
 
 欢迎提出`issues`,看到就会回馈.并且将您添加到项目贡献者列表中。
@@ -121,6 +131,5 @@
 >  3. 感谢Gitee提供的图床平台 [相关地址](https://gitee.com/ShaoxiongDu/imageBed)
 >  4. 感谢GitHub提供代码仓库平台
 >  5. 感谢在线站点生成器 [docsify](https://docsify.js.org/) 提供的在线站点生成功能
-
 
 
