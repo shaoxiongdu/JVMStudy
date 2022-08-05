@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/LICENSE-MIT-orange"/>
     <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy">
 </div>
-[![Stargazers over time](https://starchart.cc/shaoxiongdu/JVMStudy.svg)](https://github.com/shaoxiongdu/JVMStudy)
+![Stargazers over time](https://starchart.cc/shaoxiongdu/JVMStudy.svg)
 
 ## 一、思维导图 
 
