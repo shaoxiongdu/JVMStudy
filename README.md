@@ -1,11 +1,7 @@
 
 > 开源项目推荐： [Java成长之路](http://www.github.com/shaoxiongdu/java-notes)  Java技术栈的全套知识点总结
 
-
-<center>
-<img src="https://gitee.com/ShaoxiongDu/imageBed/raw/master/info.jpg" style="width:500px" >
-</center>
-<br>
+![image-20220805101528860](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051015888.png)
 
 <div align="center">
     <h2><a href="https://www.jvmstudy.top" target="_blank">在线站点（阅读体验更好)</a></h2>
@@ -19,12 +15,11 @@
     <img src="https://img.shields.io/badge/LICENSE-MIT-orange"/>
     <img src="https://visitor-badge.glitch.me/badge?page_id=shaoxiongdu.JVMStudy">
 </div>
-
 [![Stargazers over time](https://starchart.cc/shaoxiongdu/JVMStudy.svg)](https://github.com/shaoxiongdu/JVMStudy)
 
 ## 一、思维导图 
 
-![JVMStudy](https://images-1301128659.cos.ap-beijing.myqcloud.com/JVMStudy.png)
+![JVMStudy](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051014144.png)
 
 ## 二、清单 
 
@@ -104,7 +99,7 @@
 
 ### 我们的目标是：【分享好玩的项目，挖掘开源的价值】。
 
-> ![Github推荐](https://gitee.com/ShaoxiongDu/imageBed/raw/master/image-20210820144130666.png)
+> ![Github推荐](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051014715.png)
 
 ## 五、反馈及改进
 
@@ -135,5 +130,4 @@
 >  3. 感谢Gitee提供的图床平台 [相关地址](https://gitee.com/ShaoxiongDu/imageBed)
 >  4. 感谢GitHub提供代码仓库平台
 >  5. 感谢在线站点生成器 [docsify](https://docsify.js.org/) 提供的在线站点生成功能
-
 
