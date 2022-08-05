@@ -1,6 +1,6 @@
 # JVM执行引擎
 
-![](https://gitee.com/ShaoxiongDu/imageBed/raw/master//images/JVM底层体系.jpg)
+![](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051418555.jpg)
 
 ## 1、执行引擎概述
 
@@ -18,7 +18,7 @@
 
   - 具体工作过程
 
-    -  ![img](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/1729333fda0586ed)
+    -  ![img](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051418949)
 
     1. 执行引擎在执行的过程中究竟需要执行什么样的字节码指令完全依赖于PC寄存器。
 
@@ -30,18 +30,18 @@
 
 - ### 大部分的程序代码转换成物理机的目标代码或虚拟机能执行的指令集之前，都需要经过下面图中的各个步骤
 
-  ![img](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/17293345b33057a0)
+  ![img](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051418888)
 
   - 解释型语言走中间一行
   - 编译型语言走下边一行
 
 - ### Java代码编译是由Java源码编译器来完成的
 
-  ![img](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/172933480ac44fb8)
+  ![img](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051418187)
 
 - ### Java字节码的执行是由JVM执行引擎来完成的
 
-  ![img](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/1729334a1a335e4c)
+  ![img](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051418092)
 
 - ### 解释器
 
@@ -56,7 +56,7 @@
   JDK1.0时代，将Java语言定位为“解释执行”还是比较准确的。再后来，Java也发展出可以直接生成本地代码的编译器。
   现在JVM在执行Java代码的时候，通常都会将解释执行与编译执行二者结合起来进行。
 
-  ![a](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/172933531eb0cea7)
+  ![a](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051418156)
 
 ## 3、机器码，指令，汇编语言
 
@@ -91,7 +91,7 @@
 
 - 为了使计算机用户编程序更容易些，后来就出现了各种高级计算机语言。高级语言比机器语言、汇编语言更接近人的语言
 - 当计算机执行高级语言编写的程序时，仍然需要把程序解释和编译成机器的指令码。完成这个过程的程序就叫做解释程序或编译程序。
-   ![image-20210712102610135](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/image-20210712102610135.png)
+   ![image-20210712102610135](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051419306.png)
 
 ### 字节码
 
@@ -110,7 +110,7 @@
 
 ## 4、解释器
 
-  JVM设计者们的初衷仅仅只是单纯地为了==满足Java程序实现跨平台特性==，因此避免采用静态编译的方式直接生成本地机器指令，从而诞生了实现解释器在运行时采用逐行解释字节码执行程序的想法。 ![img](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/172933694cc12661)
+  JVM设计者们的初衷仅仅只是单纯地为了==满足Java程序实现跨平台特性==，因此避免采用静态编译的方式直接生成本地机器指令，从而诞生了实现解释器在运行时采用逐行解释字节码执行程序的想法。 ![img](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051419781)
 
 - 解释器真正意义上所承担的角色就是一个运行时“翻译者”，将字节码文件中的内容“翻译”为对应平台的本地机器指令执行。
 - 当一条字节码指令被解释执行完成后，接着再根据PC寄存器中记录的下一条需要被执行的字节码指令执行解释操作。
@@ -166,7 +166,7 @@ java代码的执行分类：
 
 
 
- ![9](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/1729336fe2d19d44)
+ ![9](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051420011)
 
 ### 5.2、 JIT编译器
 
@@ -196,7 +196,7 @@ java代码的执行分类：
 - 这个计数器就用于统计方法被调用的次数，它的默认阈值在Client 模式 下是1500 次，在Server 模式下是10000 次。超过这个阈值，就会触发JIT编译。
 - 这个阈值可以通过虚拟机参数一XX ：CompileThreshold来人为设定。
 - 当一个方法被调用时， 会先检查该方法是否存在被JIT编译过的版本，如 果存在，则优先使用编译后的本地代码来执行。如果不存在已被编译过的版本，则将此方法的调用计数器值加1，然后判断方法调用计数器与回边计数器值之和是否超过方法调用计数器的阈值。如果已超过阈值，那么将会向即时编译器提交一个该方法的代码编译请求。
-   ![10](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/172933785afec215)
+   ![10](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051420391)
 
 **热度衰减**
 
@@ -207,7 +207,7 @@ java代码的执行分类：
 ##### 回边计数器
 
 它的作用是统计一个方法中循环体代码执行的次数，在字节码中遇到控制流向后跳转的指令称为“回边” （Back Edge）。显然，建立回边计数器统计的目的就是为了触发OSR编译。
- ![11](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/1729337da4233b93)
+ ![11](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051420533)
 
 #### HotSpot VM 可以设置程序执行方式
 
@@ -216,7 +216,7 @@ java代码的执行分类：
 - -Xint： 完全采用解释器模式执行程序；
 - -Xcomp： 完全采用即时编译器模式执行程序。如果即时编译出现问题，解释器会介入执行。
 - -Xmixed：采用解释器+即时编译器的混合模式共同执行程序。
-   ![img](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/17293384f2fd17a7)
+   ![img](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051420032)
 
 ##### 测试解释器模式和JIT编译模式
 

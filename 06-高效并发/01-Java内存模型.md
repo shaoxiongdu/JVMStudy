@@ -15,7 +15,7 @@
 - 而不能直接访问主内存的数据。
 - 不同的线程也不能互相读写对方的工作内存，线程之间的变量传递必须通过主内存传递。
 
-![image-20210731210337786](https://gitee.com/ShaoxiongDu/imageBed/raw/master//images/image-20210731210337786.png)
+![image-20210731210337786](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051424145.png)
 
 ## 主内存和工作内存的交互
 
@@ -123,7 +123,7 @@
 
    通过多次运行程序，我们发现，count的值永远比20000小。
 
-   ![image-20210731215601479](https://gitee.com/ShaoxiongDu/imageBed/raw/master//images/image-20210731215601479.png)
+   ![image-20210731215601479](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051424817.png)
 
    那么，这是为什么呢？
 

@@ -24,7 +24,7 @@ Java中的JVM是如何实现多线程的？
 
    ​	程序一般不会直接使用内核线程，而是使用它的高级接口：`轻量级进程`（LWP）。轻量级进程就是我们通常意义上讲的线程。每个轻量级进程都由一个内核线程支持。因此这种方式称为1:1的线程模型
 
-   ![image-20210801142929121](https://gitee.com/ShaoxiongDu/imageBed/raw/master//images/image-20210801142929121.png)
+   ![image-20210801142929121](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051425287.png)
 
    ​	由于内核线程的支持，每个轻量级进程都是一个独立的调度单元。由于是基于系统内核实现的，所以此种方式在对线程进行创建，同步等操作的时候都需要系统内核调用。需要在用户态和系统内核态之间频繁切换，影响性能。
 
@@ -34,7 +34,7 @@ Java中的JVM是如何实现多线程的？
 
    ​	由于是一个进程对应多个用户线程，因此，线程模型是1:N的
 
-   ![image-20210801143143220](https://gitee.com/ShaoxiongDu/imageBed/raw/master//images/image-20210801143143220.png)
+   ![image-20210801143143220](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051425555.png)
 
    缺点：
 
@@ -47,7 +47,7 @@ Java中的JVM是如何实现多线程的？
 
    ​	在这种情况下，既存在用户线程，又存在轻量级进程，`用户线程的建立还是在用户态中`，因此不需要频繁切换内核态，保证了速度的高效。`轻量级进程为用户线程和内核线程的桥梁`。这样可以使用内核提供的线程调度功能处理用户线程中存在的问题。用户线程和轻量级进程的比例是不确定的。因此是N:M的线程模型
 
-   ![image-20210801142757700](https://gitee.com/ShaoxiongDu/imageBed/raw/master//images/image-20210801142757700.png)
+   ![image-20210801142757700](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051425680.png)
 
 ## Java线程的实现
 

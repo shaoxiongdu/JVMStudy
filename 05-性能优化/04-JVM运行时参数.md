@@ -109,7 +109,7 @@
 
   - 点击配置运行环境，打开VM选项即可输入
 
-  ![image-20210711205033973](https://raw.githubusercontent.com/shaoxiongdu/images/main/images/image-20210711205033973.png)
+  ![image-20210711205033973](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051424366.png)
 
 - ### 运行jar包： 
 
