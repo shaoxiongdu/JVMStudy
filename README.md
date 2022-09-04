@@ -24,7 +24,7 @@
 
 ![JVMStudy](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051014144.png)
 
-## 二、清单 1
+## 二、清单
 
 ### 2.1. 类加载子系统
 
@@ -72,15 +72,18 @@
 - [3-线程安全](./06-高效并发/04-线程安全.md)
 - [4-锁优化](./06-高效并发/05-锁优化.md)
 
-## 三、参考文献
+## 三、示例代码
+示例代码在同级目录 [demo](./demo)下 按照章节分类，请自行查阅食用。
 
-> ### 3.1.Oracle官网JVM规范
+## 四、参考文献
+
+> ### 4.1.Oracle官网JVM规范
 >
 > - [JDK1.8的JVM规范](https://docs.oracle.com/javase/specs/jvms/se8/html)
 > - [JDK1.7的JVM规范](https://docs.oracle.com/javase/specs/jvms/se7/html)
 > - [JDK1.6的JVM规范](https://docs.oracle.com/javase/specs/jvms/se6/html)
 >
-> ### 3.2.参考书籍
+> ### 4.2.参考书籍
 >
 > 《深入理解JVM虚拟机》 周志明 著
 > 
@@ -94,21 +97,19 @@
 > 
 > 《Java性能优化权威指南》 [Charlie Hunt](https://book.douban.com/search/CharlieHunt) 著
 
-## 四、更多开源项目
+## 五、更多开源项目
 
-#### 安利一波我们的公众号：【挖掘开源的价值】
+#### 安利一波我的公众号：【程序员阿杜】
 
 每天都会分享一些好玩，有趣，又沙雕的开源项目。或者是比较实用的开发工具。
 
-### 我们的目标是：【分享好玩的项目，挖掘开源的价值】。
-
 > ![Github推荐](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051014715.png)
 
-## 五、反馈及改进
+## 六、反馈及改进
 
 欢迎提出`issues`,看到就会回馈.并且将您添加到项目贡献者列表中。
 
-## 六、参与贡献（非常欢迎！）
+## 七、参与贡献（非常欢迎！）
 
 > 手动打字难免会有错别字，如果您在学习过程中发现了错别字或者需要补充及修正的知识点。
 >
@@ -122,11 +123,11 @@
 4. 新建 Pull Request，填写必要信息。
 5. 等待审核即可。通过之后会邮件通知您。
 
-## 七、许可证
+## 八、许可证
 
 在 MIT 许可下分发。有关更多信息，请参阅[`LICENSE`](./LICENSE)。
 
-## 八、致谢
+## 九、致谢
 
 >  1. 感谢尚硅谷提供的在线课程视频资料 [在线课程](https://www.bilibili.com/video/BV1PJ411n7xZ)
 >  2. 感谢JetBrains提供的配套开发环境许可证 [官方网站](https://www.jetbrains.com/)
