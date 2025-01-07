@@ -97,14 +97,6 @@
 > 
 > 《Java性能优化权威指南》 [Charlie Hunt](https://book.douban.com/search/CharlieHunt) 著
 
-## 五、更多开源项目
-
-#### 安利一波我的公众号：【程序员阿杜】
-
-每天都会分享一些好玩，有趣，又沙雕的开源项目。或者是比较实用的开发工具。
-
-> ![Github推荐](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051014715.png)
-
 ## 六、反馈及改进
 
 欢迎提出`issues`,看到就会回馈.并且将您添加到项目贡献者列表中。
