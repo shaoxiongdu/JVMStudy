@@ -37,17 +37,17 @@ public class CanReliveObject {
             e.printStackTrace();
         }
 
-        if(ref == null){
+        if (ref == null) {
             System.out.println("对象已死");
-        }else {
+        } else {
             System.out.println("对象未死");
         }
         ref = null;
         System.gc();
         System.out.println("第二次GC执行完毕");
-        if(ref == null){
+        if (ref == null) {
             System.out.println("对象已死");
-        }else {
+        } else {
             System.out.println("对象未死");
         }
     }

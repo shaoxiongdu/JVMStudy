@@ -24,7 +24,6 @@ public class GCRootsTest {
             }
         }
 
-
         System.out.println("数据添加完毕，请操作：");
         new Scanner(System.in).next();
         numList = null;

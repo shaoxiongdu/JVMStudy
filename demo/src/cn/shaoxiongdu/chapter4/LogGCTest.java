@@ -20,7 +20,7 @@ public class LogGCTest {
 
         for (int i = 0; i < 5000; i++) {
 
-            list.add(new byte[1024 * 1024]); //1MB
+            list.add(new byte[1024 * 1024]); // 1MB
 
             try {
                 Thread.sleep(500);
@@ -29,10 +29,6 @@ public class LogGCTest {
             }
 
         }
-
-
-
-
 
     }
 

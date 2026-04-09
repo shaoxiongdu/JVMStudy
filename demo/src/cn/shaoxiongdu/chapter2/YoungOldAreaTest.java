@@ -11,7 +11,7 @@ public class YoungOldAreaTest {
         byte[] buffer = new byte[1024 * 1024 * 20];//20m
 
         try {
-            Thread.sleep(1000 * 1000 );
+            Thread.sleep(1000 * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

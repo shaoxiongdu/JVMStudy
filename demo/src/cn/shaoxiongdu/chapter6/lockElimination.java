@@ -7,7 +7,7 @@ package cn.shaoxiongdu.chapter6;
  */
 public class lockElimination {
 
-    public String concat(String s1, String s2){
+    public String concat(String s1, String s2) {
         return s1 + s2;
     }
 

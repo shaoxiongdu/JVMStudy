@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class JProfilerTest {
     public static void main(String[] args) {
-        while (true){
+        while (true) {
             ArrayList list = new ArrayList();
             for (int i = 0; i < 500; i++) {
                 Data data = new Data();
@@ -25,8 +25,9 @@ public class JProfilerTest {
         }
     }
 }
-class Data{
+
+class Data {
     private int size = 10;
-    private byte[] buffer = new byte[1024 * 1024];//1mb
+    private byte[] buffer = new byte[1024 * 1024];// 1mb
     private String info = "hello,atguigu";
 }

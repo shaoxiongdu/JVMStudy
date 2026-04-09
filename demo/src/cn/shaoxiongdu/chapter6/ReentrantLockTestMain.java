@@ -15,12 +15,12 @@ public class ReentrantLockTestMain {
         Lock lock = new ReentrantLock();
 
         lock.lock();
-        try{
-            //处理任务
-        }catch(Exception ex){
+        try {
+            // 处理任务
+        } catch (Exception ex) {
 
-        }finally{
-            lock.unlock();  //释放锁
+        } finally {
+            lock.unlock();  // 释放锁
         }
     }
 }

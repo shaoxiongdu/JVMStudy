@@ -26,12 +26,11 @@ public class SoftReferenceTest {
         //创建对象，建立软引用
 //        SoftReference<User> userSoftRef = new SoftReference<User>(new User(1, "songhk"));
         //上面的一行代码，等价于如下的三行代码
-        User u1 = new User(1,"songhk");
+        User u1 = new User(1, "songhk");
         SoftReference<User> userSoftRef = new SoftReference<User>(u1);
-        u1 = null;//取消强引用
+        u1 = null;// 取消强引用
 
-
-        //从软引用中重新获得强引用对象
+        // 从软引用中重新获得强引用对象
         System.out.println("GC之前软引用获取的对象" + userSoftRef.get());
 
         System.gc();

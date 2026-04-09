@@ -12,14 +12,14 @@ public class StopTheWorldDemo {
         public void run() {
             try {
                 while (true) {
-                    for(int i = 0;i < 1000;i++){
+                    for (int i = 0; i < 1000; i++) {
                         byte[] buffer = new byte[1024];
                         list.add(buffer);
                     }
 
-                    if(list.size() > 100000){
+                    if (list.size() > 100000) {
                         list.clear();
-                        System.gc();//会触发full gc，进而会出现STW事件
+                        System.gc();// 会触发full gc，进而会出现STW事件
                     }
                 }
             } catch (Exception ex) {

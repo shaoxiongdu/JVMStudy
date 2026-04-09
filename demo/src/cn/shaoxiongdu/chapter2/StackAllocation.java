@@ -18,8 +18,9 @@ public class StackAllocation {
     }
 
     private static void alloc() {
-        User user = new User();//未发生逃逸
+        User user = new User();// 未发生逃逸
     }
+
     static class User {
     }
 }

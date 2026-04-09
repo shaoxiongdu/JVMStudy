@@ -9,7 +9,7 @@ import java.util.Random;
 public class OOMTest {
     public static void main(String[] args) {
         ArrayList<Picture> list = new ArrayList<>();
-        while(true){
+        while (true) {
             try {
                 Thread.sleep(50);
             } catch (InterruptedException e) {
@@ -20,10 +20,11 @@ public class OOMTest {
     }
 }
 
-class Picture{
+class Picture {
     private byte[] pixels;
 
     public Picture(int length) {
         this.pixels = new byte[length];
     }
 }
+

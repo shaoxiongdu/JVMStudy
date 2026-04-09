@@ -9,8 +9,8 @@ public class SynchronizedTest {
 
     private static int count = 0;
 
-    public synchronized void dosomething(){
-        synchronized (SynchronizedTest.class){
+    public synchronized void dosomething() {
+        synchronized (SynchronizedTest.class) {
 
         }
     }
@@ -20,3 +20,4 @@ public class SynchronizedTest {
     }
 
 }
+
