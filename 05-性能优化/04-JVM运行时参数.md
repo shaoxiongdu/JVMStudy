@@ -1,17 +1,17 @@
 # JVM运行时参数
 
-## 1.  JVM参数选项类型
+## 1. JVM参数选项类型
 
 - ### 标准参数选项
 
-  - 比较稳定 以 - 开头
+  - 比较稳定，以 `-` 开头
 
     ```java
         -d32          使用 32 位数据模型 (如果可用)
         -d64          使用 64 位数据模型 (如果可用)
         -server       选择 "server" VM
                       默认 VM 是 server.
-    
+
         -cp <目录和 zip/jar 文件的类搜索路径>
         -classpath <目录和 zip/jar 文件的类搜索路径>
                       用 ; 分隔的目录, JAR 档案
@@ -100,58 +100,57 @@
 
   #### 分类
 
-  - 布尔类型 : -XX +<option> 启用     -XX -<option> 停用
-  - 非布尔类型：-XX:name=value
+  - 布尔类型 : `-XX:+<option>` 启用， `-XX:-<option>` 停用
+  - 非布尔类型：`-XX:<name>=<value>`
 
 ## 2. 添加JVM参数选项
 
-- ### IDEA：    
+- ### IDEA：
 
   - 点击配置运行环境，打开VM选项即可输入
 
   ![image-20210711205033973](https://images-1301128659.cos.ap-beijing.myqcloud.com/MacBookPro202208051424366.png)
 
-- ### 运行jar包： 
+- ### 运行jar包：
 
-  - java <参数> -jar demo.jar
+  - `java <参数> -jar demo.jar`
 
-- ### 通过Tomcat运行：    
+- ### 通过Tomcat运行：
 
-  - catalina.bat中添加：set "JAVA_OPTS=-Xms100m -Xmx100m"
+  - 在 `catalina.bat` 中添加：`set "JAVA_OPTS=-Xms100m -Xmx100m"`
 
 ## 3. 常用的JVM参数选项
 
 ### 打印设置的参数
 
-- -XX:+PrintCommandLineFlags 表示程序运行前打印出JVM参数
-- -XX:+PrintFlagsInitial 表示打印出所有参数的默认值
-- -XX:+PrintFlagsFinal 打印出最终的参数值
-- -XX:+PrintVMOptions 打印JVM的参数
+- `-XX:+PrintCommandLineFlags` 表示程序运行前打印出JVM参数
+- `-XX:+PrintFlagsInitial` 表示打印出所有参数的默认值
+- `-XX:+PrintFlagsFinal` 打印出最终的参数值
+- `-XX:+PrintVMOptions` 打印JVM的参数
 
 ### 栈
 
-- -Xss128k
+- `-Xss<size>` 例如 `-Xss128k`
 
 ### 堆
 
-- -Xms600m    设置堆的初始大小
-- -Xmx600m   设置堆的最大大小
-- -XX:NewSize=1024m  设置年轻代的初始大小
-- -XX:MaxNewSize=1024m  设置年轻代的最大值
-- -XX:SurvivorRatio=8 伊甸园和幸存者的比例
-- -XX:NewRatio=4 设置老年代和新生代的比例
-- -XX:MaxTenuringThreshold=15 设置晋升老年代的年龄条件
+- `-Xms<size>` 例如 `-Xms600m` 设置堆的初始大小
+- `-Xmx<size>` 例如 `-Xmx600m` 设置堆的最大大小
+- `-XX:NewSize=<size>` 设置年轻代的初始大小
+- `-XX:MaxNewSize=<size>` 设置年轻代的最大值
+- `-XX:SurvivorRatio=8` 伊甸园和幸存者的比例
+- `-XX:NewRatio=4` 设置老年代和新生代的比例
+- `-XX:MaxTenuringThreshold=15` 设置晋升老年代的年龄条件
 
 ### 方法区
 
 - 永久代
-  - -XX:PermSize=256m 设置永久代初始大小
-  - -XX:MaxPernSize=256m 设置永久代的最大大小
+  - `-XX:PermSize=<size>` 设置永久代初始大小
+  - `-XX:MaxPermSize=<size>` 设置永久代的最大大小
 - 元空间
-  - -XX:MetasapceSize=256m 设置初始元空间大小
-  - -XX:MaxMatespaceSize=256m 设置最大元空间大小 默认无限制
+  - `-XX:MetaspaceSize=<size>` 设置初始元空间大小
+  - `-XX:MaxMetaspaceSize=<size>` 设置最大元空间大小，默认无限制
 
 ### 直接内存
 
-- -XX:MaxDirectMemorySize  设置直接内存的容量，默认与堆最大值一样。
-
+- `-XX:MaxDirectMemorySize=<size>` 设置直接内存的容量，默认与堆最大值一样。
